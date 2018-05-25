@@ -1,0 +1,513 @@
+{
+	"info": {
+		"_postman_id": "95199252-73e2-47d9-aaeb-837900326334",
+		"name": "Lab 5 - Hibernate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"Kingston 8GB 2400MHz CL17\",\r\n\"category\" : \"RAM\",\r\n\"price\" : 400\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wprowadzenie nowego produktu"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"GOODRAM 4GB 2133MHz CL15 SR\",\r\n\"category\" : \"RAM\",\r\n\"price\" : 200\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wprowadzenie nowego produktu"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"ADATA 8GB 2400MHz 1.2V CL17\",\r\n\"category\" : \"RAM\",\r\n\"price\" : 350\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wprowadzenie nowego produktu"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"HyperX 16GB 2400MHz Impact Black CL14 1.2V\",\r\n\"category\" : \"RAM\",\r\n\"price\" : 730\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wprowadzenie nowego produktu"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"MSI GeForce GTX 1060 GAMING X 6GB GDDR5\",\r\n\"category\" : \"graphicCard\",\r\n\"price\" : 1579\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wprowadzenie nowego produktu"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"ASUS GeForce GTX 1050 Ti Cerberus OC 4GB GDDR5\",\r\n\"category\" : \"graphicCard\",\r\n\"price\" : 839\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wprowadzenie nowego produktu"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"Gigabyte Radeon RX 570 AORUS 4GB GDDR5\",\r\n\"category\" : \"graphicCard\",\r\n\"price\" : 1299\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wprowadzenie nowego produktu"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"ASRock Z370 Pro4\",\r\n\"category\" : \"mainBoard\",\r\n\"price\" : 429\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wprowadzenie nowego produktu"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"MSI Z370 TOMAHAWK\",\r\n\"category\" : \"mainBoard\",\r\n\"price\" : 599\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wprowadzenie nowego produktu"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"Seagate 500GB 5400obr. 128MB BarraCuda \",\r\n\"category\" : \"hardDrive\",\r\n\"price\" : 154\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wprowadzenie nowego produktu"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"Seagate 500GB 5400obr. 128MB BarraCuda \",\r\n\"category\" : \"Hard Drive\",\r\n\"price\" : 154\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products"
+					]
+				},
+				"description": "Wyświetlenie listy produktów"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products/0",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"Seagate 500GB 5400obr. 128MB BarraCuda \",\r\n\"category\" : \"Hard Drive\",\r\n\"price\" : 154\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products",
+						"0"
+					]
+				},
+				"description": "Wyświetlenie produktu o podanym ID"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products/0",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"Kingston 8GB 2400MHz CL17\",\r\n\"category\" : \"RAM\",\r\n\"price\" : 350\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products",
+						"0"
+					]
+				},
+				"description": "Modyfikacja danych produktu o podanym ID"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/products/0",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"Seagate 500GB 5400obr. 128MB BarraCuda \",\r\n\"category\" : \"Hard Drive\",\r\n\"price\" : 154\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/products/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"products",
+						"0"
+					]
+				},
+				"description": "Usunięcie produktu o podanym ID"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/search/price/200/599",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"Seagate 500GB 5400obr. 128MB BarraCuda \",\r\n\"category\" : \"Hard Drive\",\r\n\"price\" : 154\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/search/price/200/599",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"search",
+						"price",
+						"200",
+						"599"
+					]
+				},
+				"description": "Wyszukiwanie produktów po cenie"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/restapp/rest/search/category/RAM",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"Seagate 500GB 5400obr. 128MB BarraCuda \",\r\n\"category\" : \"Hard Drive\",\r\n\"price\" : 154\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restapp/rest/search/category/RAM",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restapp",
+						"rest",
+						"search",
+						"category",
+						"RAM"
+					]
+				},
+				"description": "Wyszukiwanie produktów po kategorii"
+			},
+			"response": []
+		}
+	]
+}
